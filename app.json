@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Ai_Video_Generator",
-    "slug": "Ai_Video_Generator",
+    "name": "AIME",
+    "scheme": "AIME",
+    "slug": "AIME",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.watch.AIME"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
